@@ -4,6 +4,8 @@ import './App.css';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import Header from './components/header/Header';
+import Sidebar from './components/sidebar/Sidebar';
+import Saddlebag from './components/saddlebag/Saddlebag';
 
 const client = new ApolloClient({
     uri: 'http://localhost:5000',
@@ -11,9 +13,11 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <ApolloProvider client={client} style={{ height: '0px', margin: '0', padding: '0' }}>
+    <ApolloProvider client={client}>
+      <Header />
+      <Sidebar />
+      <Saddlebag />
       <div style={{ height: '100%', width: '100%', }}>
-        <Header />
         <div>
           <h2>My first Apollo App</h2>
           <section>

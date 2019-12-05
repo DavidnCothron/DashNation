@@ -14,11 +14,13 @@ export default class Header extends Component {
         return (
             <div>
                 <Headroom
-                    wrapperStyle={{ marginBottom: '0', }}
+                    wrapperStyle={{
+                        marginBottom: '10px',
+                    }}
                     style={{
+                        mozTransition: 'all 2s ease-in-out',
                         background: 'rgb(255, 201, 92)',
                         width: '100%',
-                        mozTransition: 'all 2s ease-in-out',
                     }}
                 >
                     <div style={{ textAlign: 'justify' }}>
