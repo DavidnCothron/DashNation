@@ -7,10 +7,15 @@
     "@syncfusion/ej2-react-charts": "^17.3.30",
     "@syncfusion/ej2-react-grids": "^17.3.30",
     "apollo-boost": "^0.4.4",
+    "cogo-toast": "^4.1.1",
     "graphql": "^14.5.8",
     "react": "^16.12.0",
     "react-contextmenu": "^2.13.0",
+    "react-dnd": "^9.5.1",
+    "react-dnd-html5-backend": "^9.5.1",
     "react-dom": "^16.12.0",
+    "react-headroom": "^3.0.0",
+    "react-rnd": "^10.1.1",
     "react-scripts": "3.2.0"
   },
   "scripts": {
